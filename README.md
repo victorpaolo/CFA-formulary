@@ -140,9 +140,6 @@ Collection model
 | POST        | /auth/signup                | {name, email, password}      | 201            | 404          | Checks if fields not empty (422) and user not exists (409), then create user with encrypted password, and store user in session |
 | POST        | /auth/login                 | {username, password}         | 200            | 401          | Checks if fields not empty (422), if user exists (404), and if password matches (404), then stores user in session |
 | POST        | /auth/logout                | (empty)                      | 204            | 400          | Logs out the user                                            |
-| GET         | /home       |                         |                | 400          | Show all categories                                   |
-| GET         | /home/category      |                         |                | 400          | Show all category formulas                                   |
-| GET         | /home/category/formula          |                         |                | 400          | Show specific formula                                        |
 | GET         | /collections/:id                | {id}                    |                | 400          | show collections                                             |
 | PUT         | /collections/edit/:id           | {title,formula}         | 201            | 400          | edit collections                                             |
 | DELETE      | /collections/delete/:id         | {id}                    | 201            | 400          | delete collections                                           |
