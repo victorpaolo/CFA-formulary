@@ -10,31 +10,21 @@ This is an app to have access to all formulas needed for CFA exam, which lets on
 
 -  **404:** As an anon/user I can see a 404 page if I try to reach a page that does not exist so that I know it's my fault
 -  **Home:** As an anon I can have access to some of the formulas.
--  **Formula:** As an anon I can use that formula, but in some formulas it is mandatory to be regitered. 
-As a user I can access to some more formulas but in some other it is needed to contribute.
+-  **Formula:** As an anon I can use that formula, but in some formulas it is mandatory to be regitered, altough as a user I can have access to whole formulas.
 -  **Signup:** As an anon I can sign up in the platform so that I can use have acces to formulas.
--  **Login:** As a user I can login to the platform so that I can go to some formulas depending if contributes or not.
--  **Logout:** As a user I can logout from the platform so no one else can use it
--  **Create Formula Collection** As a user I can create a library in which I can have formulas
--  **Edit Formula Collection** As a user I can edit the 
--  **Add Player Names** As a user I can add players to a tournament
--  **Edit Player profiles** As a user I can edit a player profile to fit into the tournament view
--  **View Tournament Table** As a user I want to see the tournament table
--  **Edit Games** As a user I can edit the games, so I can add scores
--  **View Ranks** As a user I can see the ranks
-
-
-
+-  **Login:** As a user I can login to the platform so that I can have access to whole formulas.
+-  **Logout:** As a user I can logout from the platform so no one else can use it.
+-  **Formula Collection Page** As a user I can visualize all the collections created also I can create or delete a collection 
+-  **Create Formula Collection** As a user I can create a library in which I have formulas, by clicking a button either from the formmula or in the Collection Page.
+-  **Edit Formula Collection** As a user I can edit the collection by deleting the already existing formulas.
+-  **Delete Formula Collection** As a user I can delete the collection by clicking a button in the Collection Page.
+-  **Edit User profile** As a user I can edit my profile.
 
 ## Backlog
 
-User profile:
-- see my profile
-- change tournament mode to FFA
-- Add weather widget
-- lottie interactions
-- users can bet
-- add geolocation to events when creating
+-  **Searcher** As a user I can search for a formula in the pop-up to add new formula in the collection page or in the home page.
+-  **Contribution** As a user I can contribute to have full access for a year to the app.
+-  **Feedback** As a user I can send a feedback to the administrator from the formula is using or for the app in general.
 
 
 <br>
@@ -49,14 +39,13 @@ User profile:
 | `/auth/signup`            | SignupPage           | anon only   | Signup form, link to login, navigate to homepage after signup |
 | `/auth/login`             | LoginPage            | anon only   | Login form, link to signup, navigate to homepage after login |
 | `/auth/logout`            | n/a                  | anon only   | Navigate to homepage after logout, expire session            |
-| `/tournaments`            | TournamentListPage   | user only   | Shows all tournaments in a list                              |
-| `/tournaments/add`        | TournamentListPage   | user only   | Edits a tournament                                           |
-| `/tournaments/:id`        | TournamentDetailPage | user only   | Details of a tournament to edit                              |
-| `/tournament/:id`         | na                   | user only   | Delete tournament                                            |
-| `/tournament/players`     | PlayersListPage      | user only   | List of players of a tournament                              |
-| `/tournament/players/add` | PlayersListPage      | user only   | Add a player to the tournament                               |
-| `/tournament/players/:id` | PlayersDetailPage    | user only   | Edit player for tournament                                   |
-| `/tournament/players/:id` | PlayersListPage      | user only   | Delete player from tournament                                |
+| `/home`                   | CategoriesPage         | anon only   | Show all categories                              |
+| `/home/category`          | CategoryPage          | anon only   | Show all categories                              |
+| `/tournament/:id`         | na                   | user only   | Delete tournament                            |
+| `/collections/:id`        | CollectionPage       | user only   | Add collection                                   |
+| `/collections/:id`        | CollectionPage       | user only   | Edit collection                                  |
+| `/collections/:id`        | CollectionPage       | user only   | Delete collection                                |
+| `/collections/collec/:id` | CollectionPage       | user only   | Delete collection                                |
 | `/tournament/tableview`   | TableView            | user only   | Games view and brackets                                      |
 | `/tournament/ranks`       | RanksPage            | user only   | Ranks list                                                   |
 | `/tournament/game`        | GameDetailPage       | user only   | Game details                                                  |
@@ -69,7 +58,7 @@ User profile:
 
 - SplashPage
 
-- TournamentListPage
+- CategoryPage
 
 - Tournament Cell
 
@@ -207,7 +196,7 @@ Game model
 
 ### Trello/Kanban
 
-[Link to your trello board](https://trello.com/b/PBqtkUFX/curasan) 
+[Link to your trello board]() 
 or picture of your physical board
 
 ### Git
