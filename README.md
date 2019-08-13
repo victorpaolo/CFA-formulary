@@ -162,9 +162,9 @@ or picture of your physical board
 
 The url to your repository and to your deployed project
 
-[Client repository Link](https://github.com/screeeen/project-client)
+[Client repository Link](https://github.com/victorpaolo/CFA-frontend-app)
 
-[Server repository Link](https://github.com/screeeen/project-server)
+[Server repository Link](https://github.com/victorpaolo/CFA-backend-app)
 
 [Deployed App Link](http://heroku.com)
 
