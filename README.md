@@ -4,16 +4,19 @@
 
 ## Description
 
-This is an app to manage unofficial tournaments within communities. The app helps to organize, manage and track competitions.
+This is an app to have access to all formulas needed for CFA exam, which lets on one page to understand how the formula is working dinamically.
 
 ## User Stories
 
 -  **404:** As an anon/user I can see a 404 page if I try to reach a page that does not exist so that I know it's my fault
--  **Signup:** As an anon I can sign up in the platform so that I can start playing into competition
--  **Login:** As a user I can login to the platform so that I can play competitions
+-  **Home:** As an anon I can have access to some of the formulas.
+-  **Formula:** As an anon I can use that formula, but in some formulas it is mandatory to be regitered. 
+As a user I can access to some more formulas but in some other it is needed to contribute.
+-  **Signup:** As an anon I can sign up in the platform so that I can use have acces to formulas.
+-  **Login:** As a user I can login to the platform so that I can go to some formulas depending if contributes or not.
 -  **Logout:** As a user I can logout from the platform so no one else can use it
--  **Add Tournaments** As a user I can add a tournament
--  **Edit Tournaments** As a user I can edit a tournament
+-  **Create Formula Collection** As a user I can create a library in which I can have formulas
+-  **Edit Formula Collection** As a user I can edit the 
 -  **Add Player Names** As a user I can add players to a tournament
 -  **Edit Player profiles** As a user I can edit a player profile to fit into the tournament view
 -  **View Tournament Table** As a user I want to see the tournament table
