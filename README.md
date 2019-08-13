@@ -85,10 +85,10 @@ This is an app to have access to all formulas needed for CFA exam, which lets on
   - auth.getUser() // synchronous
   
 - Collection Service
-  - category.list()
-  - category.detail(id)
-  - category.add(id)
-  - category.delete(id)
+  - collection.list()
+  - collection.detail(id)
+  - collection.add(id)
+  - collection.delete(id)
   
 - User Service 
   - user.detail(id)
